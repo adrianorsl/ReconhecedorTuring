@@ -5,6 +5,7 @@ public class Turing {
 	int CONT;
 	char FITA [];
 
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
@@ -23,6 +24,7 @@ public class Turing {
 	}
 	
 	public void q0() {
+		// A letra T irá representar o fim da fita
 		if (CONT < FITA.length) {
 			if (FITA[CONT] == 'T') {
 				FITA[CONT] = 'T';
